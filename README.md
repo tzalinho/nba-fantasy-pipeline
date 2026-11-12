@@ -39,7 +39,7 @@ python 4_optimizer.py
 
 ### Stage 2: consensus and bookmaker research
 
-The aggregator computes per-player means from observed, finite statistics. Polymarket is excluded from consensus but retained in the research output. A player appearing in multiple games is rejected rather than silently combined.
+The aggregator calculates each player’s average statistics across bookmakers. Polymarket is excluded from these averages but retained in the research output.
 
 | Statistic | Weight |
 | --- | ---: |
